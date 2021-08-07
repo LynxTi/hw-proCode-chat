@@ -3,12 +3,10 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script src="/socket.io/socket.io.js"></script> 
+    <script src="/socket.io/socket.io.js"></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <form name="loginForm" class="loginForm">
+    <form name="loginForm" class="loginForm showBlock">
       <input type="text" class="userNameInput" name="userName" placeholder="Ваше имя">
       <button class="btnForm" type="submit">Ok</button>
     </form>

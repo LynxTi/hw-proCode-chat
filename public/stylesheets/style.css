@@ -1,8 +1,19 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.loginForm {
+  display: none;
+
 }
 
-a {
-  color: #00B7FF;
+.chatBlock {
+  display: none;
+}
+
+.showBlock {
+  display: block;
+}
+
+.usersMeseges {
+  border: 1px solid black;
+  height: 700px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
 }
